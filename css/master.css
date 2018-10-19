@@ -1,0 +1,136 @@
+header {
+  background: rgb(248, 201, 242);
+  padding: 12px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid #ffffff;
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding: 12px;
+  display: block;
+}
+
+
+.hero {
+  background: rgb(223, 141, 212) url('images/img4.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color : #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .hero h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4em;
+  background: rgba(30, 0, 0, 0.50);
+  padding: 24px;
+  }
+
+
+section {
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: rgb(92, 92, 123);
+}
+
+.even {
+  background: rgb(248, 201, 242);
+}
+
+
+.image-block {
+  max-width: 640px;
+  border: 12px solid #000;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Varela Round', sans-serif;
+  font-style: italic;
+
+}
+
+footer {
+  min-height: 600px;
+  background: #000;
+  color : #fff;
+}
+
+
+#section01 h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2em;
+  text-align: center;
+}
+
+#section01 p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+#section02 h2 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#section02 p {
+  font-family: 'Cookie', cursive;
+  text-align: center;
+}
+
+#section03 h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#section03 p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1em;
+  text-align: center;
+}
+
+#section04 h4 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#section04 p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+#section05 h5 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#section05 p {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
